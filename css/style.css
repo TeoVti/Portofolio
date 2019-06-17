@@ -1,0 +1,95 @@
+body {
+    padding-top: 50px; 
+    margin: 0;
+    width: 100%;
+}
+
+.logoimg {
+  width: 80px;
+}
+
+ main {
+   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.15)),url(https://thumbs.dreamstime.com/b/desk-various-gadgets-office-supplies-flat-lay-computer-smart-phone-notebook-other-devices-stationery-around-workplace-69792818.jpg);
+  background-size: cover;
+  background-position: center;
+   width: 100%;
+   min-height: 500px;
+   margin: 0;
+   font-family: monospace;
+   color: #fff;
+}
+
+h1 {
+  margin: 0;
+  padding-left: 50px;
+  padding-top: 130px;
+   padding-right: 30px;
+   text-align: center;
+}
+
+p {
+  font-size: 25px;
+  padding-left: 50px;
+  padding-right: 30px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+h2 {
+   font-size: 40px;
+  padding-top: 50px;
+}
+
+    /* line under the Portofolio and Contact me title */
+.star-dark {
+  border-color:#fff;
+  margin: 40px; auto; 30px;
+  padding: 0;
+  border-top: solid 5px;
+  text-align: center;
+}
+
+#Portofolio {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  text-align:center;
+}
+
+#Portofolio img {
+  width: 100%;
+}
+
+#Portofolio > a {
+  width: calc(100% / 3 - 20px);
+  text-align:center;
+  color: #2d3c49;
+  text-decoration: none;
+  width: 100%;
+}
+
+#Contact {
+   width: 100%;
+    padding: 25px 25% 75px 25%;
+  background-color: #f5f5ef;
+
+  }
+
+@media only screen and (max-width: 600px) {
+  #Portofolio > a {
+    width: calc(100% - 20px);
+  } }
+
+    /* align the portofolio photos when screen > 800px */
+  @media only screen and (min-width: 800px) {
+   .flex  img{
+     max-width: 600px;
+     padding: 10px;
+    }
+    
+    .flex {
+       display: flex;
+  flex-direction: row;
+      text-align: center;
+    }
+    
